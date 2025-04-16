@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS kursy (
         ON UPDATE CASCADE
 );
 
--- Tabela zapisane_kursy (relacja wiele-do-wielu)
+-- Tabela zapisane_kursy 
 CREATE TABLE IF NOT EXISTS zapisane_kursy (
     id_uzytkownika INT,
     id_kursu INT,
@@ -43,7 +43,7 @@ INSERT INTO uzytkownicy (imie, nazwisko, email, rola) VALUES
 ('Ewa', 'Wiśniewska', 'ewa.wisniewska@gmail.com', 'student');
 
 
--- Przykładowe kursy (przypisane do nauczyciela Anna)
+-- Przykładowe kursy 
 INSERT INTO kursy (nazwa, opis, id_nauczyciela) VALUES
 ('Podstawy SQL', 'Nauka podstaw języka SQL', 1),
 ('Zaawansowane bazy danych', 'Normalizacja, relacje, indeksy', 1);
