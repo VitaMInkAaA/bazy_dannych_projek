@@ -89,8 +89,8 @@ WHERE k.nazwa = 'Podstawy SQL';
 
 -- dodawanie nauczycieli
 INSERT INTO uzytkownicy (imie, nazwisko, email, rola) VALUES
-('Marek', 'Zieliński', 'marek.zielinski@example.com', 'nauczyciel'),
-('Katarzyna', 'Nowicka', 'katarzyna.nowicka@example.com', 'nauczyciel');
+('Marek', 'Zieliński', 'marek.zielinski@gmail.com', 'nauczyciel'),
+('Katarzyna', 'Nowicka', 'katarzyna.nowicka@gmail.com', 'nauczyciel');
 
 -- dodawanie kursów
 
