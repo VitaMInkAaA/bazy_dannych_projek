@@ -101,11 +101,11 @@ INSERT INTO kursy (nazwa, opis, id_nauczyciela) VALUES
 -- dodawanie nowych studentów
 
 INSERT INTO uzytkownicy (imie, nazwisko, email, rola) VALUES
-('Tomasz', 'Lis', 'tomasz.lis@example.com', 'student'),
-('Magdalena', 'Mazur', 'magdalena.mazur@example.com', 'student'),
-('Piotr', 'Kowalczyk', 'piotr.kowalczyk@example.com', 'student'),
-('Julia', 'Dąbrowska', 'julia.dabrowska@example.com', 'student'),
-('Adam', 'Szymański', 'adam.szymanski@example.com', 'student');
+('Tomasz', 'Lis', 'tomasz.lis@gmail.com', 'student'),
+('Magdalena', 'Mazur', 'magdalena.mazur@gmail.com', 'student'),
+('Piotr', 'Kowalczyk', 'piotr.kowalczyk@gmail.com', 'student'),
+('Julia', 'Dąbrowska', 'julia.dabrowska@gmail.com', 'student'),
+('Adam', 'Szymański', 'adam.szymanski@gmail.com', 'student');
 
 -- zapisywanie studentów na kurs
 
